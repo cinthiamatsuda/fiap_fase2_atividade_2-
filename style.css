@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    font-family:'Lato', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.logo p {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: -470px;
+}
+
+.busca {
+    width: 500px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid rgb(156, 156, 156);
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(224, 223, 223);
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 50px;
+  }
+
+li {
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    cursor:pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+li:hover {
+    background-color:#004AAD;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: white;
+  }
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    float:left;
+    margin: 10px 10px;
+}
+
+.desc {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.saibamais {
+    background-color: #004AAD;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.saibamais:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.hero {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0)),
+    url(/img/paulista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 10vmin;
+}
